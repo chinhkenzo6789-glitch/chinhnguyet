@@ -2,7 +2,7 @@
 const gallery = document.getElementById("gallery");
 const template = document.getElementById("photoTemplate");
 
-const SHEET_URL = "https://script.google.com/macros/s/AKfycbxBEPVyTZJuj1e_1Ndu4A81AJh4SOAX9aCgWlKwSQAMhfMv81ffJyYEpLZmVPJ8Ozfm/exec";
+const SHEET_URL = "https://script.google.com/macros/s/AKfycbw5UTgWefHGT-ozyzV6lQW4hxmfqFLfD-DcyRo6R2z-EoydJDFJxqgRT-av_GL8nr_8/exec";
 
 const imageList = [
     "001.jpg","002.jpg","003.jpg","004.jpg","005.jpg",
@@ -320,4 +320,5 @@ globalSlideBtn.addEventListener("click",()=>{
     }else{
         startGlobalSlideshow();
     }
+
 });
